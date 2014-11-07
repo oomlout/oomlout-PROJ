@@ -1,0 +1,80 @@
+<xml>	<oompBasics>
+		<shortURL>http://oom.lt</shortURL>
+	</oompBasics>
+	
+	<projBasic>
+		<id>contactText</id>
+		<value><![CDATA[Spotted a mistake? Made one yourself? Want more details?<br>Send us an e-mail: proj@oomlout.com]]></value>
+	</projBasic>	<oomloutBasics>
+	
+	<address>
+		<line1>Unit 3 Emstead Works</line1>
+		<line2>Old Lane</line2>
+		<city>Halifax</city>
+		<postCode>HX3 5QN</postCode>
+		<country>UK</country>
+	</address>
+	</oomloutBasics>
+	<basics>
+		<template>PROJ-template.tmpl</template>
+		<output>/index.html</output>
+	</basics>
+	
+	<about>
+		<name>Header Snapper Tool</name>
+		<description><![CDATA[It's easiest to buy headers in snappable lengths of 36 pins, however we often need other lengths. We made a little tool to help us out. 
+(for more details and how to build your own <a href="http://oomlout.co.uk/blog/WHSN">;http://oomlout.co.uk/blog/WHSN</a> )]]></description>
+	</about>
+	
+<oomloutProject>
+	<id>WHSN</id>
+	<name>Header Snapper</name>
+	<summary>A tool to help snap headers to length</summary>
+	<about>It's easiest to buy headers in snappable lengths of 36 pins, however we often need other lengths. We made a little tool to help us out.</about>
+	<assembly>Once cut from 3mm sheet stock the pieces should go together quite logically.</assembly>
+	<thingiverseID>19041</thingiverseID>
+	<thingiverseWeb>http://www.thingiverse.com/thing:19041</thingiverseWeb>
+	<laserMaterial>3mm Acrylic</laserMaterial>
+	<video>https://www.flickr.com/photos/snazzyguy/6977509533/</video>
+	<videoEmbed><![CDATA[<object type="application/x-shockwave-flash" width="400" height="225" data="https://www.flickr.com/apps/video/stewart.swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"><param name="flashvars" value="intl_lang=en-US&photo_secret=ee7acf00f1&photo_id=6977509533&hd_default=false"></param><param name="movie" value="https://www.flickr.com/apps/video/stewart.swf"></param><param name="bgcolor" value="#000000"></param><param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/video/stewart.swf" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-US&photo_secret=ee7acf00f1&photo_id=6977509533&hd_default=false" width="400" height="225"></embed></object>]]></videoEmbed>
+	<laserCutList>
+		<laserPart>
+			<partID>WHSN-01</partID>
+			<partName>Top</partName>
+			<partQty>1</partQty>
+		</laserPart>
+		<laserPart>
+			<partID>WHSN-02</partID>
+			<partName>Bottom</partName>
+			<partQty>1</partQty>
+		</laserPart>
+		<laserPart>
+			<partID>WHSN-03</partID>
+			<partName>Middle</partName>
+			<partQty>2</partQty>
+		</laserPart>
+		<laserPart>
+			<partID>WHSN-04</partID>
+			<partName>Adjustment Stick</partName>
+			<partQty>1</partQty>
+		</laserPart>		
+	</laserCutList>
+	<partsList>
+		<part>
+			<partID>BOLT-M6-M-12-01</partID>
+			<qty>4</qty>
+		</part>
+		<part>
+			<partID>NUTT-M6-M-STAN-01</partID>
+			<qty>4</qty>
+		</part>
+		<part>
+			<partID>MSCR-M3-M-12-01</partID>
+			<qty>2</qty>
+		</part>
+		<part>
+			<partID>NUTT-M6-M-STAN-01</partID>
+			<qty>2</qty>
+		</part>
+	</partsList>
+</oomloutProject></xml>
